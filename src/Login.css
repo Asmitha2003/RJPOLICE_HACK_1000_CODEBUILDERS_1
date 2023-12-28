@@ -1,0 +1,70 @@
+
+.containerlogin {
+	background: url("./002-subtle-light-pattern-background-texture-vol5.jpg")
+		no-repeat center center;
+	background-size: cover;
+	place-content: center;
+    background-position: center;
+    height: 100vh;
+}
+
+.form5 {
+	height: 450px;
+	width: 380px;
+	background: #ffffff66;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+    top: 200px;
+    left: 600px;
+     
+}
+
+.form5 img {
+	margin: 45px 0 20px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.aa{
+	font-size:15;
+	color: #1069d6;
+	cursor: pointer;
+}
+
+.form5 input {
+	margin-bottom: 10px;
+	padding: 8px 15px;
+	width: 212px;
+	border: 2px solid #ccc;
+	color: #000;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.form5 input:focus {
+	outline: 0;
+	transition: 0.5s;
+	border: 2px solid #646464;
+}
+
+
+.button5 {
+    margin-top:50px;
+	width: 95px;
+	height: 35px;
+	border: 2px solid #142b54;
+	background: #3db376;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin: 0 0 50px 0;
+}
+
+.button5:active {
+	transform: scale(1.05);
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
