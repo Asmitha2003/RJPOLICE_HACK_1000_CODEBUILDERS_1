@@ -1,0 +1,30 @@
+/* FeedbackReports.css */
+
+.feedback-reports-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .reports-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .report-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0;
+    word-wrap: break-word; /* Ensure long words or URLs break to the next line */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 600px) {
+    .reports-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Add more media queries as needed for different screen sizes */
+  
